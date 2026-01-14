@@ -55,14 +55,14 @@
     </div>
     <div class="w-full gap-6 md:gap-4 lg:gap-8 grid grid-cols-1 md:grid-cols-3">
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
             <a href="/blog/10-tips">
-                <div class="w-full h-48 overflow-hidden">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/10-tips/10-tips-small.webp"
                         alt="10 tips"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -77,14 +77,14 @@
             </a>
         </div>
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
             <a href="/">
-                <div class="w-full h-48 overflow-hidden">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/14-linkedin/14-linkedin-small.webp"
                         alt="14 linkedin tips"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -99,14 +99,14 @@
             </a>
         </div>
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
             <a href="/">
-                <div class="w-full h-48 overflow-hidden">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/5-killer/5-killer-small.webp"
                         alt="5 killer tech tools"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -121,14 +121,14 @@
             </a>
         </div>
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
-            <a href="/">
-                <div class="w-full h-48 overflow-hidden">
+            <a href="/blog/10-tips">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/10-tips/10-tips-small.webp"
                         alt="10 tips"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -143,14 +143,14 @@
             </a>
         </div>
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
             <a href="/">
-                <div class="w-full h-48 overflow-hidden">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/14-linkedin/14-linkedin-small.webp"
                         alt="14 linkedin tips"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -165,14 +165,14 @@
             </a>
         </div>
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
             <a href="/">
-                <div class="w-full h-48 overflow-hidden">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/5-killer/5-killer-small.webp"
                         alt="5 killer tech tools"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -187,14 +187,14 @@
             </a>
         </div>
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
-            <a href="/">
-                <div class="w-full h-48 overflow-hidden">
+            <a href="/blog/10-tips">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/10-tips/10-tips-small.webp"
                         alt="10 tips"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -209,14 +209,14 @@
             </a>
         </div>
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
             <a href="/">
-                <div class="w-full h-48 overflow-hidden">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/14-linkedin/14-linkedin-small.webp"
                         alt="14 linkedin tips"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -231,14 +231,14 @@
             </a>
         </div>
         <div
-            class="w-full md:h-[420px] lg:h-[350px] bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
+            class="w-full bg-primary-gray hover:bg-dark-gray overflow-hidden rounded-xl group transition"
         >
             <a href="/">
-                <div class="w-full h-48 overflow-hidden">
+                <div class="w-full aspect-[4/3] overflow-hidden">
                     <img
                         src="/assets/alicemyerhoff/blog/5-killer/5-killer-small.webp"
                         alt="5 killer tech tools"
-                        class="w-full h-full object-cover group-hover:scale-105 transition ease-in"
+                        class="w-full h-full object-cover transition-transform group-hover:scale-105 ease-in"
                         loading="lazy"
                     />
                 </div>
@@ -252,5 +252,6 @@
                 </div>
             </a>
         </div>
+        
     </div>
 </div>

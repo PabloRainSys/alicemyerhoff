@@ -59,7 +59,7 @@
 
 <section class="relative w-full flex flex-col items-center pt-12">
     <div
-        class="w-full px-6 md:px-0 md:w-[600px] flex flex-col items-start justify-start"
+        class="w-full px-6 md:px-12 py-6 md:py-12 md:w-[600px] flex flex-col items-start justify-start bg-white rounded-t-xl"
     >
         <p class="pb-4 text-light-gray text-sm">
             by Alice Myerhoff | Dec 19, 2014

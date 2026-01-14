@@ -1,42 +1,42 @@
+type RevealOptions = {
+  delay?: number
+  threshold?: number
+  y?: number
+}
+
 export function reveal(
   node: HTMLElement,
-  options: {
-    delay?: number;
-    y?: number;
-    duration?: number;
-    easing?: string;
-  } = {}
-) {
-  const {
+  {
     delay = 0,
-    y = 60,
-    duration = 1000,
-    easing = "cubic-bezier(0.22, 1, 0.36, 1)",
-  } = options;
-
-  node.style.opacity = "0";
-  node.style.transform = `translateY(${y}px)`;
-  node.style.transition = `
-    opacity ${duration}ms ${easing} ${delay}ms,
-    transform ${duration}ms ${easing} ${delay}ms
-  `;
+    threshold = 0.15,
+    y = 20
+  }: RevealOptions = {}
+) {
+  // estado inicial (oculto)
+  node.style.opacity = '0'
+  node.style.transform = `translateY(${y}px)`
+  node.style.transition = `opacity 0.6s ease-out ${delay}ms, transform 0.6s ease-out ${delay}ms`
 
   const observer = new IntersectionObserver(
     ([entry]) => {
       if (entry.isIntersecting) {
-        node.style.opacity = "1";
-        node.style.transform = "translateY(0)";
-        observer.unobserve(node);
+        // entra en viewport → aparece
+        node.style.opacity = '1'
+        node.style.transform = 'translateY(0)'
+      } else {
+        // sale del viewport → vuelve al estado inicial
+        node.style.opacity = '0'
+        node.style.transform = `translateY(${y}px)`
       }
     },
-    { threshold: 0.15 }
-  );
+    { threshold }
+  )
 
-  observer.observe(node);
+  observer.observe(node)
 
   return {
     destroy() {
-      observer.disconnect();
-    },
-  };
+      observer.disconnect()
+    }
+  }
 }
